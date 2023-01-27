@@ -444,7 +444,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-wraper-subscription">
+        <form class="footer-wraper-subscription">
           <p class="footer-title">Підпишіться на розсилку</p>
           <div class="wraper-subscription">
             <input class="input-email" type="text" placeholder="E-mail" />
@@ -455,7 +455,7 @@
               </svg>
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -468,7 +468,7 @@
         <p class="title-contact-form">Залиште свої дані, ми вам передзвонимо</p>
         <form class="contact-form">
           <label class="contact-form-field">
-            <span class="contact-form-label">Ім'я</span>
+            Ім'я
             <span class="contact-form-input-wrapper">
               <input
                 name="user_name"
@@ -482,7 +482,7 @@
             </span>
           </label>
           <label class="contact-form-field">
-            <span class="contact-form-label">Телефон</span>
+            Телефон
             <span class="contact-form-input-wrapper">
               <input
                 name="user_tel"
@@ -496,7 +496,7 @@
             </span>
           </label>
           <label class="contact-form-field">
-            <span class="contact-form-label">Пошта</span>
+            Пошта
             <span class="contact-form-input-wrapper">
               <input
                 name="user_email"
@@ -509,8 +509,8 @@
               </svg>
             </span>
           </label>
-          <label class="contact-form-field">
-            <span class="contact-form-label">Коментар</span>
+          <label class="contact-form-field contact-form-field-coment">
+            Коментар
             <textarea
               name="user_coment"
               class="contact-form-coment"
@@ -526,9 +526,8 @@
               required
             />
             <label for="policy-checkbox" class="contact-form-checkbox-label">
-              Погоджуюся з розсилкою та приймаю &nbsp;<a href=""
-                >Умови договору</a
-              >
+              Погоджуюся з розсилкою та приймаю &nbsp;
+              <a href="" class="policy-contract"> Умови договору </a>
             </label>
           </div>
           <button type="submit" class="contact-form-submit-btn button">
